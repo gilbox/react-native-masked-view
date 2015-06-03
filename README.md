@@ -8,7 +8,8 @@ Masked View Component for React. Just like a `<View />` with a mask.
 
 ## installation
 
-    npm install react-native-masked-view
+- `npm install react-native-masked-view`
+- `var MaskedView = require('react-native-masked-view');`
 
 ... then have a look at [these instructions](https://github.com/chirag04/react-native-dashed-border)
 and adjust accordingly.
