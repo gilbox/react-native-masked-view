@@ -1,0 +1,27 @@
+{
+  "name": "react-native-masked-view ",
+  "version": "0.0.2",
+  "description": "A <MaskedView> element for react-native",
+  "main": "MaskedView.ios.js",
+  "author": {
+    "name": "Gil Birman",
+	"email": "g@gilbox.me",
+    "url": "http://gilbox.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gilbox/react-native-masked-view.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "masked view",
+    "uiview",
+    "view"
+  ],
+  "dependencies": {
+    "react-native": "^0.4.4"
+  }
+}

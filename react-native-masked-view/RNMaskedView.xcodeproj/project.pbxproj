@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465C8B611AFBCD9E003B5C69 /* RNMaskedView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 465C8B601AFBCD9E003B5C69 /* RNMaskedView.h */; };
+		465C8B631AFBCD9E003B5C69 /* RNMaskedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C8B621AFBCD9E003B5C69 /* RNMaskedView.m */; };
+		465C8B691AFBCD9E003B5C69 /* libRNMaskedView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 465C8B5D1AFBCD9E003B5C69 /* libRNMaskedView.a */; };
+		465C8B791AFBD0F8003B5C69 /* RNMaskedViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C8B781AFBD0F8003B5C69 /* RNMaskedViewManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		465C8B6A1AFBCD9E003B5C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465C8B551AFBCD9E003B5C69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465C8B5C1AFBCD9E003B5C69;
+			remoteInfo = RNMaskedView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		465C8B5B1AFBCD9E003B5C69 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				465C8B611AFBCD9E003B5C69 /* RNMaskedView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		465C8B5D1AFBCD9E003B5C69 /* libRNMaskedView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMaskedView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		465C8B601AFBCD9E003B5C69 /* RNMaskedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMaskedView.h; sourceTree = "<group>"; };
+		465C8B621AFBCD9E003B5C69 /* RNMaskedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMaskedView.m; sourceTree = "<group>"; };
+		465C8B681AFBCD9E003B5C69 /* RNMaskedViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNMaskedViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		465C8B6E1AFBCD9E003B5C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465C8B771AFBD0C6003B5C69 /* RNMaskedViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMaskedViewManager.h; sourceTree = "<group>"; };
+		465C8B781AFBD0F8003B5C69 /* RNMaskedViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMaskedViewManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465C8B5A1AFBCD9E003B5C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465C8B651AFBCD9E003B5C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465C8B691AFBCD9E003B5C69 /* libRNMaskedView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465C8B541AFBCD9E003B5C69 = {
+			isa = PBXGroup;
+			children = (
+				465C8B5F1AFBCD9E003B5C69 /* RNMaskedView */,
+				465C8B6C1AFBCD9E003B5C69 /* RNMaskedViewTests */,
+				465C8B5E1AFBCD9E003B5C69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		465C8B5E1AFBCD9E003B5C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465C8B5D1AFBCD9E003B5C69 /* libRNMaskedView.a */,
+				465C8B681AFBCD9E003B5C69 /* RNMaskedViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		465C8B5F1AFBCD9E003B5C69 /* RNMaskedView */ = {
+			isa = PBXGroup;
+			children = (
+				465C8B601AFBCD9E003B5C69 /* RNMaskedView.h */,
+				465C8B621AFBCD9E003B5C69 /* RNMaskedView.m */,
+				465C8B771AFBD0C6003B5C69 /* RNMaskedViewManager.h */,
+				465C8B781AFBD0F8003B5C69 /* RNMaskedViewManager.m */,
+			);
+			path = RNMaskedView;
+			sourceTree = "<group>";
+		};
+		465C8B6C1AFBCD9E003B5C69 /* RNMaskedViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				465C8B6D1AFBCD9E003B5C69 /* Supporting Files */,
+			);
+			path = RNMaskedViewTests;
+			sourceTree = "<group>";
+		};
+		465C8B6D1AFBCD9E003B5C69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				465C8B6E1AFBCD9E003B5C69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465C8B5C1AFBCD9E003B5C69 /* RNMaskedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465C8B711AFBCD9E003B5C69 /* Build configuration list for PBXNativeTarget "RNMaskedView" */;
+			buildPhases = (
+				465C8B591AFBCD9E003B5C69 /* Sources */,
+				465C8B5A1AFBCD9E003B5C69 /* Frameworks */,
+				465C8B5B1AFBCD9E003B5C69 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNMaskedView;
+			productName = RNMaskedView;
+			productReference = 465C8B5D1AFBCD9E003B5C69 /* libRNMaskedView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		465C8B671AFBCD9E003B5C69 /* RNMaskedViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465C8B741AFBCD9E003B5C69 /* Build configuration list for PBXNativeTarget "RNMaskedViewTests" */;
+			buildPhases = (
+				465C8B641AFBCD9E003B5C69 /* Sources */,
+				465C8B651AFBCD9E003B5C69 /* Frameworks */,
+				465C8B661AFBCD9E003B5C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465C8B6B1AFBCD9E003B5C69 /* PBXTargetDependency */,
+			);
+			name = RNMaskedViewTests;
+			productName = RNMaskedViewTests;
+			productReference = 465C8B681AFBCD9E003B5C69 /* RNMaskedViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465C8B551AFBCD9E003B5C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					465C8B5C1AFBCD9E003B5C69 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					465C8B671AFBCD9E003B5C69 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 465C8B581AFBCD9E003B5C69 /* Build configuration list for PBXProject "RNMaskedView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 465C8B541AFBCD9E003B5C69;
+			productRefGroup = 465C8B5E1AFBCD9E003B5C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				465C8B5C1AFBCD9E003B5C69 /* RNMaskedView */,
+				465C8B671AFBCD9E003B5C69 /* RNMaskedViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		465C8B661AFBCD9E003B5C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465C8B591AFBCD9E003B5C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465C8B791AFBD0F8003B5C69 /* RNMaskedViewManager.m in Sources */,
+				465C8B631AFBCD9E003B5C69 /* RNMaskedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465C8B641AFBCD9E003B5C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		465C8B6B1AFBCD9E003B5C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465C8B5C1AFBCD9E003B5C69 /* RNMaskedView */;
+			targetProxy = 465C8B6A1AFBCD9E003B5C69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		465C8B6F1AFBCD9E003B5C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		465C8B701AFBCD9E003B5C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		465C8B721AFBCD9E003B5C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		465C8B731AFBCD9E003B5C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		465C8B751AFBCD9E003B5C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNMaskedViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		465C8B761AFBCD9E003B5C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNMaskedViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465C8B581AFBCD9E003B5C69 /* Build configuration list for PBXProject "RNMaskedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465C8B6F1AFBCD9E003B5C69 /* Debug */,
+				465C8B701AFBCD9E003B5C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465C8B711AFBCD9E003B5C69 /* Build configuration list for PBXNativeTarget "RNMaskedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465C8B721AFBCD9E003B5C69 /* Debug */,
+				465C8B731AFBCD9E003B5C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465C8B741AFBCD9E003B5C69 /* Build configuration list for PBXNativeTarget "RNMaskedViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465C8B751AFBCD9E003B5C69 /* Debug */,
+				465C8B761AFBCD9E003B5C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465C8B551AFBCD9E003B5C69 /* Project object */;
+}
