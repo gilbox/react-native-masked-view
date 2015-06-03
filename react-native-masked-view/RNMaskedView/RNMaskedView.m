@@ -12,35 +12,24 @@
 #import <QuartzCore/QuartzCore.h>
 
 @implementation RNMaskedView {
-  CAShapeLayer *_border;
-}
-
-- (instancetype)init
-{
-  if ((self = [super init])) {
-    _border = [CAShapeLayer layer];
-    _border.fillColor = nil;
-    [self.layer addSublayer:_border];
-  }
-
-  return self;
+    UIImage *_maskUIImage;
 }
 
 - (void)layoutSubviews
 {
-  [super layoutSubviews];
-  _border.path = [UIBezierPath bezierPathWithRect:self.bounds].CGPath;
-  _border.frame = self.bounds;
+    [super layoutSubviews];
+    
+    CALayer *mask = [CALayer layer];
+    mask.contents = (id)[_maskUIImage CGImage];
+    mask.frame = self.bounds; //TODO custom: CGRectMake(left, top, width, height);
+    self.layer.mask = mask;
+    self.layer.masksToBounds = YES;
 }
 
-- (void)setColor:(NSString *)colorString
+- (void)setMaskImage:(NSString *)imageString
 {
-  _border.strokeColor = [RCTConvert UIColor:colorString].CGColor;
-}
-
-- (void)setLineDashPattern:(NSArray *)pattern
-{
-  _border.lineDashPattern = pattern;
+    NSString *imageName = [RCTConvert NSString:imageString];
+    _maskUIImage = [UIImage imageNamed:imageName];
 }
 
 @end

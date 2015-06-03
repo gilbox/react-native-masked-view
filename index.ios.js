@@ -14,46 +14,63 @@ var {
 } = React;
 
 var MaskedView = require('./react-native-masked-view/MaskedView.ios');
-var hexagon = require('image!hexagon');
-//var bwhexagon = require('image!bwhexagon');
+var gil = require('image!gil-portrait-small');
 
 var MaskedViewDemo = React.createClass({
   render: function() {
     return (
-      <MaskedView color={'#343434'} lineDashPattern={[4,2]} style={styles.container}>
-        <Image source={hexagon} />
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </MaskedView>
+      <View style={styles.container}>
+        <Image source={gil} style={styles.imageContainer} />
+        <MaskedView maskImage='hexagon.png' style={styles.maskContainer}>
+          <Text style={styles.welcome}>
+            g@gilbox.me
+          </Text>
+          <Text style={styles.instructions}>
+            Inside a MaskedView!
+          </Text>
+          <Text style={styles.instructions}>
+            Note that the Mask stretches
+          </Text>
+          <Text style={styles.instructions}>
+            to the size of the View
+          </Text>
+        </MaskedView>
+      </View>
     );
   }
 });
 
 var styles = StyleSheet.create({
   container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#ffffff',
+  },
+  imageContainer: {
+    position: 'absolute',
+    top: -60,
+    left: -110,
+    margin: 0,
+  },
+  maskContainer: {
     margin: 10,
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#000033',
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+    color: '#aaaaff',
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    color: '#aaaaff',
     marginBottom: 5,
+    width: 400,
   },
 });
 

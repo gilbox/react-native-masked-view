@@ -10,6 +10,10 @@
 #import "RNMaskedView.h"
 #import "RCTBridge.h"
 
+#import <UIKit/UIKit.h>
+
+#import <RCTConvert.h>
+
 @implementation RNMaskedViewManager
 
 RCT_EXPORT_MODULE();
@@ -21,7 +25,7 @@ RCT_EXPORT_MODULE();
     return [[RNMaskedView alloc] init];
 }
 
-RCT_EXPORT_VIEW_PROPERTY(color, NSString);
-RCT_EXPORT_VIEW_PROPERTY(lineDashPattern, NSArray);
+RCT_EXPORT_VIEW_PROPERTY(maskImage, NSString);
+
 
 @end
