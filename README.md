@@ -1,5 +1,7 @@
 # react-native-masked-view
 
+**note**: react@0.6.0-rc breaks MaskedView
+
 Masked View Component for React. Just like a `<View />` with a mask.
 
     <MaskedView maskImage="mask.png">...</MaskedView>
