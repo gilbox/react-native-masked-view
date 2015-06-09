@@ -1,7 +1,5 @@
 # react-native-masked-view
 
-**note**: react@0.6.0-rc breaks MaskedView
-
 Masked View Component for React. Just like a `<View />` with a mask.
 
     <MaskedView maskImage="mask.png">...</MaskedView>
@@ -15,6 +13,10 @@ Masked View Component for React. Just like a `<View />` with a mask.
 
 ... then have a look at [these instructions](https://github.com/chirag04/react-native-dashed-border)
 and adjust accordingly.
+
+**note**: react@0.6.0-rc broke MaskedView, but I have a branch called `react-0.6.0` which fixes it but it works slightly differently in that the MaskedView element cannot have it's own backgroundColor, but it's children can. This version is not yet on npm, but you can install it with:
+
+    npm install https://github.com/gilbox/react-native-masked-view.git#react-0.6.0 --save
 
 ## props
 
