@@ -22,18 +22,20 @@ var MaskedViewDemo = React.createClass({
       <View style={styles.container}>
         <Image source={gil} style={styles.imageContainer} />
         <MaskedView maskImage='hexagon.png' style={styles.maskContainer}>
-          <Text style={styles.welcome}>
-            g@gilbox.me
-          </Text>
-          <Text style={styles.instructions}>
-            Inside a MaskedView!
-          </Text>
-          <Text style={styles.instructions}>
-            Note that the Mask stretches
-          </Text>
-          <Text style={styles.instructions}>
-            to the size of the View
-          </Text>
+          <View style={styles.viewContainer}>
+            <Text style={styles.welcome}>
+              g@gilbox.me
+            </Text>
+            <Text style={styles.instructions}>
+              Inside a MaskedView!
+            </Text>
+            <Text style={styles.instructions}>
+              Note that the Mask stretches
+            </Text>
+            <Text style={styles.instructions}>
+              to the size of the View
+            </Text>
+          </View>
         </MaskedView>
       </View>
     );
@@ -55,6 +57,13 @@ var styles = StyleSheet.create({
   },
   maskContainer: {
     margin: 10,
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#000033',
+  },
+  viewContainer: {
+    margin: 0,
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
