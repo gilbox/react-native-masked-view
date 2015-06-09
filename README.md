@@ -34,3 +34,8 @@ Just clone this repo and open `MaskedViewDemo.xcodeproj` in xcode to edit the de
 - replace `maskImage` prop with `maskSource` prop that works just like `<Image />`'s `source` prop.
   (the internal react-native image-related code really should be refactored so it's more easily
   re-usable outside of `<Image />`)
+
+## notes
+
+- [this react-native commit](https://github.com/facebook/react-native/commit/81401064e5bc0e50de5d77ec9e2384a70e43e2f4#diff-82cd0f8fb7478261a85ac686ac07be50) broke react-native-masked-view@0.0.5 (`updateClippingForLayer` method)... created react-0.6.0 branch with a fix. Might need some additional tweaking. 
+
