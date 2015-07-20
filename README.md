@@ -4,7 +4,11 @@ Masked View Component for React. Just like a `<View />` with a mask.
 
     <MaskedView maskImage="mask.png">...</MaskedView>
 
-![screen shot](masked-view-screenshot.png)
+![screen shot](https://github.com/gilbox/react-native-masked-view/raw/master/masked-view-screenshot.png)
+
+## compatibility
+
+The latest version is compatible with react-native@0.7.1
 
 ## installation
 
@@ -13,6 +17,11 @@ Masked View Component for React. Just like a `<View />` with a mask.
 
 ... then have a look at [these instructions](https://github.com/chirag04/react-native-dashed-border)
 and adjust accordingly.
+
+## demo
+
+The demo is included. Just clone this repo, open `MaskedViewDemo.xcodeproj` in
+xcode and click run.
 
 ## options
 

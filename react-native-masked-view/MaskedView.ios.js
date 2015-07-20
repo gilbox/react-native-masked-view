@@ -3,18 +3,9 @@
  * @flow
  */
 
-'use strict';
+ 'use strict';
 
-var ReactNativeViewAttributes = require('ReactNativeViewAttributes');
-var createReactNativeComponentClass = require('createReactNativeComponentClass');
-var merge = require('merge');
-var deepDiffer = require('deepDiffer');
+ var { requireNativeComponent } = require('react-native');
+ var MaskedView = requireNativeComponent('RNMaskedView', null);
 
-var MaskedView = createReactNativeComponentClass({
-  validAttributes: merge(ReactNativeViewAttributes.UIView, {
-    maskImage: {diff: deepDiffer},
-  }),
-  uiViewClassName: 'RNMaskedView',
-});
-
-module.exports = MaskedView;
+ module.exports = MaskedView;
