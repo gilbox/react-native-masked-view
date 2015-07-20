@@ -28,9 +28,16 @@ xcode and click run.
 - `maskImage`: File name of image asset added to Images.xcassets.
 [See React Docs for instructions on adding images.](https://facebook.github.io/react-native/docs/image.html#adding-static-resources-to-your-app-using-images-xcassets)
 
+**note**: since react@0.6.0-rc the MaskedView element cannot have it's own backgroundColor, but it's children can.
+
+## demo
+
+Just clone this repo and open `MaskedViewDemo.xcodeproj` in xcode to edit the demo pictured above.
+
 ## todo
 
 - add more sizing options
+- add various mask sources: shape, svg, other layers
 - replace `maskImage` prop with `maskSource` prop that works just like `<Image />`'s `source` prop.
   (the internal react-native image-related code really should be refactored so it's more easily
   re-usable outside of `<Image />`)
