@@ -32,7 +32,7 @@ xcode and click run.
 
 ## demo
 
-Just clone this repo and open `MaskedViewDemo.xcodeproj` in xcode to edit the demo pictured above.
+Just clone this repo, `cd` into `react-native-masked-view` and `npm install`. Then open `MaskedViewDemo.xcodeproj` and click run.
 
 ## todo
 
