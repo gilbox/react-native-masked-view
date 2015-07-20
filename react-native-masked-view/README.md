@@ -18,11 +18,6 @@ The latest version is compatible with react-native@0.7.1
 ... then have a look at [these instructions](https://github.com/chirag04/react-native-dashed-border)
 and adjust accordingly.
 
-## demo
-
-The demo is included. Just clone this repo, open `MaskedViewDemo.xcodeproj` in
-xcode and click run.
-
 ## options
 
 - `maskImage`: File name of image asset added to Images.xcassets.
