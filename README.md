@@ -8,7 +8,8 @@ Masked View Component for React. Just like a `<View />` with a mask.
 
 ## compatibility
 
-The latest version is compatible with react-native@0.7.1
+- `0.2.0` is compatible with react-native@0.10.1
+- `0.1.0` is compatible with react-native@0.7.1
 
 ## installation
 

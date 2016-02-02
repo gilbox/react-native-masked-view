@@ -1,6 +1,6 @@
 {
   "name": "react-native-masked-view",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A <MaskedView> element for react-native",
   "main": "MaskedView.ios.js",
   "author": {
@@ -22,6 +22,6 @@
     "view"
   ],
   "peerDependencies": {
-    "react-native": "^0.7.1"
+    "react-native": "^0.10.1"
   }
 }
